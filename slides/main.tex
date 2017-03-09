@@ -1,0 +1,168 @@
+\documentclass{beamer}
+
+\newcommand{\rootpath}{../../}
+
+\setbeamertemplate{navigation symbols}{}
+
+\usetheme{Darmstadt}
+\usecolortheme{whale}
+
+\usepackage{ragged2e}
+\usepackage{etoolbox}
+\usepackage{lipsum}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{multicol}
+\usepackage{vwcol}
+\usepackage{mdframed}
+\usepackage{amsmath}
+\usepackage{bm}
+
+
+\apptocmd{\frame}{\justifying}{}{}
+\beamersetuncovermixins{\opaqueness<1>{25}}{\opaqueness<2->{15}}
+
+\setbeamertemplate{sidebar right}{}
+\setbeamertemplate{footline}{
+\hfill\usebeamertemplate***{navigation symbols}
+\hspace{1cm}\insertframenumber{}/\inserttotalframenumber}
+
+\begin{document}
+
+\mdfsetup{
+   middlelinecolor=red,
+   middlelinewidth=0pt,
+   backgroundcolor=red!20}
+
+
+
+\title{Software Methodology at Ericsson}
+\author{H\aa kan, Linnea, Dirk, Amir}
+\institute[KTH]
+{
+ Dept. of Information Science and Engineering\\
+\medskip
+}
+
+\date{\today}
+%================================%================================
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}\frametitle{Introduction and objective, characterize the company}
+\begin{itemize}
+\item Product: COM product
+\item Process:
+\item Organization: Large scale tele-com company in Sweden / research
+  and development
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Methods (how to interview?)}
+  \begin{itemize}
+  \item
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Main questions}
+  \begin{itemize}
+  \item Is it beneficial to use agile in big companies?
+  \item What are the pros and cons of this?
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Description of company}
+  \begin{itemize}
+  \item  Large scale tele-com company in Sweden
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Organization}
+  \begin{itemize}
+  \item structure  (Amir Ritar denna)
+    \begin{center}
+    \includegraphics[width=0.5\textwidth, angle=90,origin=c]{figs/structure.pdf}
+  \end{center}
+  \item product
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Type of software}
+  \begin{itemize}
+  \item
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Workflow/process}
+  \begin{center}
+    \includegraphics[width=1\textwidth]{figs/scrum_setup.pdf}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Tools}
+  \begin{itemize}
+  \item Version control: git, gerrit (code review), \url{https://www.gerritcodereview.com/}
+  \item Testing: junit (unit
+    testing in java)
+  \item Integration:
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Why scrum?}
+  \begin{itemize}
+
+  \item Waterfall is not working $\rightarrow$ Not able to release a product faster than a year at a time.
+  \item Ericsson started implemented SCRUM a long time ago, still
+    ongoing.
+  \item Provide greater efficiency.
+  \item Stakeholder means different things in different contexts.
+  \item stakeholders: make someone responseable for something?
+    feauture to develop, stakeholder, other feature that are using
+    your feature.
+  \item Stakeholders come from interactions between features and teams.
+  \item Cross competence team, within one teams solve difficult stuff.
+
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Challenges}
+  \begin{itemize}
+  \item asd
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Future Challenges}
+  \begin{itemize}
+  \item Work bottom up. Good understanding at low lever. Higher
+    management does not understand how agile and scrum works
+  \item Hard to keep the customers in the loop
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Conclusions}
+  \begin{itemize}
+  \item asd
+  \end{itemize}
+\end{frame}
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
